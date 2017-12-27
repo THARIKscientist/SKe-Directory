@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25dp"
+        android:layout_marginRight="0.25dp"
+        android:orientation="vertical">
+
+
+        <!-- Fax-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi">
+
+            <TextView
+                android:id="@+id/faxLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.95"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:text="@string/Fax"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faxText"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+                android:text="125+5898998898"
+                android:textSize="@dimen/Text_size_hdpi" />
+
+        </LinearLayout>
+
+        <!-- Address-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi">
+
+            <TextView
+                android:id="@+id/addressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.55"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:text="@string/Address"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+                android:text="18.c,Thirruvalluvar, nagar,near tranquebar road mayiladuthurai"
+                android:textSize="@dimen/Text_size_hdpi" />
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/addressImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic__0000s_0002_map" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

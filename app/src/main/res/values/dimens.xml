@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_employee">8dp</dimen>
+    <dimen name="activity_vertical_margin_employee">8dp</dimen>
+    <dimen name="list_item_height">44dp</dimen>
+    <dimen name="list_item_width">220dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--  Text Size  -->
+    <dimen name="Text_size_hdpi">15sp</dimen> <!-- All Parameters-->
+
+    <dimen name="Text_size_480">27sp</dimen>
+    <!--Padding For All Parameters-->
+    <dimen name="Padding_Left_or_Right_hdpi">10dp</dimen> <!-- All Parameters-->
+    <dimen name="Padding_Top_or_Bottom_hdpi">15dp</dimen> <!-- All Parameters-->
+
+    <!--Weight For All Parameters-->
+    <!--
+    <item name="Weight_Designation_Label_hdpi" format="float" type="fraction">0.24</item>
+    <dimen name="Weight_PlaceofPosting_Label_hdpi" format="float">0.09</dimen>
+    <dimen name="Weight_OffLandline_Label_hdpi" format="float">1.90</dimen>
+    <dimen name="Weight_OffMobile_Label_hdpi" format="float">2.38</dimen>
+    <dimen name="Weight_ResLandline_Label_hdpi" format="float">1.79</dimen>
+    <dimen name="Weight_ResMobile_Label_hdpi" format="float">2.25</dimen>.
+    <dimen name="Weight_Fax_Label_hdpi" format="float">0.555</dimen>
+    <dimen name="Weight_Address_Label_hdpi" format="float">0.24</dimen>
+
+    <dimen name="Weight_Designation_Text_hdpi" format="float">0.55</dimen>
+    <dimen name="Weight_PlaceofPosting_Text_hdpi" format="float">0.5</dimen>
+    <dimen name="Weight_Contact_Text_hdpi" format="float">1.55</dimen>
+    <dimen name="Weight_Email_Text_hdpi" format="float">3.85</dimen>
+    <dimen name="Weight_Fax_Text_hdpi" format="float">0.55</dimen>
+    <dimen name="Weight_Address_Text_hdpi" format="float">0.55</dimen>-->
+
+    <!--Layout Width For All Parameters-->
+    <dimen name="Field_Remaining_Text_Width_All">106dp</dimen>
+    <dimen name="Field_Contact_Text_Width_All">135dp</dimen>
+    <dimen name="Field_Contact_Text_Width_All_480">85dp</dimen>
+
+
+</resources>

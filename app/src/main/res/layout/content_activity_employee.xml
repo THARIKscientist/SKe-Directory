@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25dp"
+        android:layout_marginRight="0.25dp"
+        android:orientation="vertical">
+        <!-- Designation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi">
+
+            <TextView
+                android:id="@+id/designationLabel"
+                android:text="Designation"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/designationText"
+                android:text="txtDesignation"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Remaining_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:gravity="left|center"
+                android:paddingRight="@dimen/Padding_Left_or_Right_hdpi"
+                />
+        </LinearLayout>
+
+        <!-- Place of Posting-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi">
+
+            <TextView
+                android:id="@+id/placeOfPostingLabel"
+                android:text="@string/PlaceOfPosting"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.315"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/placeOfPostingText"
+                android:text="txtDesignationdgfsdgrfdgfdgrgrere"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Remaining_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left|center"
+                android:paddingRight="@dimen/Padding_Left_or_Right_hdpi"
+                />
+        </LinearLayout>
+
+        <!-- Off Landline-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+            android:id="@+id/officeLandlineLayout">
+
+            <TextView
+                android:id="@+id/officeLandlineLabel"
+                android:text="@string/OfficeLandline"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.90"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/officeLandlineText"
+                android:text="+91-03592-2022582"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"/>
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/officeLandlineImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic__0000s_0003_phone"
+                />
+        </LinearLayout>
+
+        <!-- Off Mobile-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+            android:id="@+id/officeMobileLayout">
+
+            <TextView
+                android:id="@+id/officeMobileLabel"
+                android:text="@string/OfficeMobile"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.38"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/officeMobileText"
+                android:text="+91-9597849973"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"/>
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/officeMobileImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic__0000s_0003_phone"
+                />
+        </LinearLayout>
+
+        <!-- Res Landline-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+            android:id="@+id/resLandlineLayout">
+
+            <TextView
+                android:id="@+id/residenceLandlineLabel"
+                android:text="@string/ResidenceLandline"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.79"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/residenceLandlineText"
+                android:text="+91-03592-2022582"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"/>
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/residenceLandlineImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic__0000s_0003_phone"
+                />
+        </LinearLayout>
+
+        <!-- Res Mobile-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"
+            android:id="@+id/resMobileLayout">
+
+            <TextView
+                android:id="@+id/residenceMobileLabel"
+                android:text="@string/ResidenceMobile"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.25"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/residenceMobileText"
+                android:text="+91-9597849973"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"/>
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/residenceMobileImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic__0000s_0003_phone"
+                />
+        </LinearLayout>
+
+        <!-- Email-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi">
+
+            <TextView
+                android:id="@+id/emailIDLabel"
+                android:text="@string/Email"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.85"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/Padding_Left_or_Right_hdpi"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/emailIDText"
+                android:text="tharikscientist@gmail.com"
+                android:textSize="@dimen/Text_size_hdpi"
+                android:layout_width="@dimen/Field_Contact_Text_Width_All"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:paddingTop="@dimen/Padding_Top_or_Bottom_hdpi"/>
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/emailIDImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic__0000s_0000_email"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
